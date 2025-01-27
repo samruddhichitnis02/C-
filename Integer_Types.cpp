@@ -24,22 +24,31 @@ int main(){
     cout << val << endl;
 
     // This line gives the size of integer in bytes
-    cout << "Size of Short int : " << sizeof(short int) << endl; // short int size = 2
+    cout << "Size of Short int : " << sizeof(short int) << endl; // short int size = 2 bytes
 
     // This line gives the size of integer in bytes
-    cout << "Size of int : " << sizeof(int) << endl; // int size = 4
+    cout << "Size of int : " << sizeof(int) << endl; // int size = 4 bytes
 
     // This line gives the size of integer in bytes
-    cout << "Size of long int : " << sizeof(long int) << endl; // long int size = 4
+    cout << "Size of long int : " << sizeof(long int) << endl; // long int size = 4 bytes
 
     // This line gives the size of integer in bytes
-    cout << "Size of long long int : " << sizeof(long long int) << endl; // long long int = 8
+    cout << "Size of long long int : " << sizeof(long long int) << endl; // long long int = 8 bytes
 
     long value_long = 38578758;
     cout << value_long << endl;
 
     // This line gives the size of long in bytes
-    cout << "Size of long : " << sizeof(long) << endl; //long = 4
+    cout << "Size of long : " << sizeof(long) << endl; //long = 4 bytes
+
+    unsigned int uvalue = 23423432;
+    cout << uvalue << endl;
+    // This line gives the size of integer in bytes
+    cout << "Size of unsigned  int : " << sizeof(unsigned int) << endl; // unsigned int = 4 bytes
+
+
 
     return 0;
 }
+
+// Note : 1 Byte = 8 bit    
